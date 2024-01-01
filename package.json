@@ -1,0 +1,25 @@
+{
+  "name": "tiny-compress-imgs",
+  "version": "1.0.1",
+  "description": "在commit之前自动压缩图片",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzqlivee/tiny-compress.git"
+  },
+  "main": "src/index.js",
+  "bin": {
+    "tiny-compress-imgs": "src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "tiny",
+    "tinify"
+  ],
+  "dependencies": {
+    "tinify": "^1.7.1"
+  },
+  "author": "zzqlivee",
+  "license": "ISC"
+}
